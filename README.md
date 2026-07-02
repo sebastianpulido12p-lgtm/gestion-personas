@@ -1,1 +1,2 @@
 # YOJAN SEBASTIAN GALEANO PULIDO 
+ # aprendi a crear mas sobre atributos, metodos y clases, tambien aprendi a utilizar el metodo constructor para inicializar los atributos de una clase y cómo crear objetos para mostrar información. 
