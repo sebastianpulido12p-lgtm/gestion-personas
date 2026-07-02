@@ -6,14 +6,15 @@ class persona
     public $edad;
     public $correo;
     public $apellido;
+    public $ocupacion;
 
-    
-    public function __construct($nombre, $edad, $correo, $apellido)
+    public function __construct($nombre, $edad, $correo, $apellido, $ocupacion = "")
     { 
-       $this->nombre= $nombre;
-       $this->edad=$edad;
-       $this->correo=$correo;
-       $this->apellido=$apellido;
+       $this->nombre = $nombre;
+       $this->edad = $edad;
+       $this->correo = $correo;
+       $this->apellido = $apellido;
+       $this->ocupacion = $ocupacion;
     }
 
     public function saludar()
